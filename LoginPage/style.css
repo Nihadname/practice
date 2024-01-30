@@ -1,0 +1,42 @@
+.Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+}
+.LoginStructure{
+    text-align: center;
+
+}
+.LoginStructure h1{
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+}
+.LoginStructure h1 span{
+    font-weight: 300;
+}
+.emailInput{
+    font-size: 19px;
+    padding: 15px 13px;
+    padding-right: 133px;
+    border: 1px solid #dddfe2;
+
+}
+.PasswordInput{
+    font-size: 19px;
+    padding: 15px 13px;
+    padding-right: 133px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 23px;
+}
+button{
+    font-size: 27px;
+    color: #fff;
+    background-color: #1877f2;
+    width: 380.4px;
+    border: none;
+
+    height: 47px;
+    border-radius: 8px;
+    margin-bottom: 37px;
+}

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+}
+body{
+  
+}
+.HeaderPart{
+  
+  background-color: #0096ff;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+width: 100%;
+height: 725px;
+}
+.contanier{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.contanier .Navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 156px;
+}
+.contanier .Navbar .left{
+  margin-top: 15px;
+
+}
+.contanier .Navbar .left h2{
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 300;
+}
+.contanier .Navbar .right{
+  margin-top: 15px;
+}
+.contanier .Navbar .right a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 16px;
+
+
+}
+.contanier .Navbar .right .button{
+  border: 1px solid #fff;
+  padding: 8px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 5px;
+}
+.contanier .MainPart{
+  display: flex;
+  justify-content: space-between;
+}
+.contanier .MainPart .LeftSide h1{
+  font-size: 3.5rem;
+color: #fff;
+font-weight: 100;
+margin-bottom: 12px;
+}
+.contanier .MainPart .LeftSide p{
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 100;
+  margin-bottom: 31px;
+}
+.contanier .MainPart .LeftSide a{
+  color: #fff;
+  background-color: rgb(15, 163, 15);
+  padding: 12px;
+  padding-left: 29px;
+  padding-right:29px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 24px;
+}
+.loginPage {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 396px; 
+  border-radius: 8px;
+  height: 357.55px;
+  margin: 0 auto; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.loginPage span{
+  font-size: 23px;
+  line-height: 22px;
+
+  text-align: center;
+  margin-top:-17px ;
+  padding: 19px;
+  
+}
+ .textInput{
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 9px 9px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  margin: 12px;
+  background-color: rgb(227, 224, 224);
+  outline: none;
+  margin-bottom: 1px;
+ }
+ .type{
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 9px 9px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  margin: 12px;
+  background-color: rgb(227, 224, 224);
+  outline: none;
+  margin-bottom: 1px;
+ }
+ .type::after{
+
+ }
+ .emailInput{
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 9px 9px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  margin: 12px;
+  background-color: rgb(227, 224, 224);
+  outline: none;
+margin-bottom: 1px;
+ }
+ .button1{
+  font-size: 15px;
+    border-radius: 36px;
+    height: 37px;
+    width: 338px;
+    margin: 11px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 18px;
+ }
+ .ForgettenAcount{
+text-decoration: none;
+display: inline;
+margin-left: 71px; 
+
+ }
+ .SignUp{
+text-decoration: none;
+margin-left: 1px;
+margin-top: -18px;
+ }
+ 
