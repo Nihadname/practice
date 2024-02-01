@@ -1,0 +1,47 @@
+.AnimationPart ul{
+display: flex;
+justify-content: center;
+margin-top: 78px;
+
+}
+
+.AnimationPart ul li {
+    list-style: none;
+    float: right;
+margin: 12px 12px;
+    padding: 5px 5px;
+    height: 4rem;
+    width: 4rem;
+    background-color: #1D809F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #fff;
+    transition: 0.5s;
+
+
+}
+.AnimationPart ul li a i{
+font-style: normal;
+color: #fff;
+font-size: 1.9rem;
+
+
+
+}
+.AnimationPart ul li:hover {
+    background-color: #0a4658;
+
+}
+.AnimationPart ul li :hover{
+    transform: rotate(360deg);
+
+}
+.AnimationPart ul li a{
+    font-size: 2.8rem;
+
+    color: #fff;
+    opacity: 1;
+}
